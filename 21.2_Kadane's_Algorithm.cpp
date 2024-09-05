@@ -5,6 +5,7 @@ Solution:- 1. Same as Day39_Q1.cpp with some small changes but the TC is O(N^3).
 */
 #include <iostream>
 #include <vector>
+#include <cstdlib>
 #include <climits>
 using namespace std;
 
@@ -25,6 +26,7 @@ int Maximum(vector<int> arr)
 
 int main()
 {
+    system("clear");
     int n;
     cout << "Enter the size of array: ";
     cin >> n;
@@ -36,5 +38,5 @@ int main()
         cin >> v[i];
     }
 
-    cout << Maximum(v);
+    cout << "Largest sum of contiguous" << Maximum(v);
 }
