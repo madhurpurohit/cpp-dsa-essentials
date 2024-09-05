@@ -3,15 +3,26 @@ using namespace std;
 
 void InsertionSort(int arr[], int n)
 {
-    for (int i = 1; i < n; i++)
+    // for (int i = 1; i < n; i++)
+    // {
+    //     for (int j = i; j > 0; j--)
+    //     {
+    //         if (arr[j] < arr[j - 1])
+    //             swap(arr[j], arr[j - 1]);
+    //         else
+    //             break;
+    //     }
+    // }
+
+    for (int i = 0; i < n; i++)
     {
-        for (int j = i; j > 0; j--)
+        int key = arr[i], j = i - 1;
+        while (j >= 0 && arr[j] > key)
         {
-            if (arr[j] < arr[j - 1])
-                swap(arr[j], arr[j - 1]);
-            else
-                break;
+            arr[j + 1] = arr[j];
+            j--;
         }
+        arr[j + 1] = key;
     }
 }
 
