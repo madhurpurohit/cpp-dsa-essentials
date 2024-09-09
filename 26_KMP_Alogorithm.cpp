@@ -34,7 +34,7 @@ int lps(string s)
     return lps[lps.size() - 1];
 }
 
-//? This method takes TC of O(N^2).
+//? This method takes TC of O(N^2) & Space of O(N).
 int lps1(string s)
 {
     int start = 0, end = s.size() - 1, size = 0;
@@ -58,16 +58,19 @@ int main()
     string s2 = "ABCDABCD";
     string s3 = "ABCABDABCABCABD";
     string s4 = "ABCABDABCABDABDAB";
+    string s5 = "aaaaaaaaabaaaaaaaaa";
 
     cout << "Answer with two pointer." << endl;
     cout << "Longest size of prefix & suffix is: " << lps(s1) << endl;
     cout << "Longest size of prefix & suffix is: " << lps(s2) << endl;
     cout << "Longest size of prefix & suffix is: " << lps(s3) << endl;
     cout << "Longest size of prefix & suffix is: " << lps(s4) << endl;
+    cout << "Longest size of prefix & suffix is: " << lps(s5) << endl;
 
     cout << "Answer with KMP algorithm." << endl;
     cout << "Longest size of prefix & suffix is: " << lps1(s1) << endl;
     cout << "Longest size of prefix & suffix is: " << lps1(s2) << endl;
     cout << "Longest size of prefix & suffix is: " << lps1(s3) << endl;
     cout << "Longest size of prefix & suffix is: " << lps1(s4) << endl;
+    cout << "Longest size of prefix & suffix is: " << lps1(s5) << endl;
 }
