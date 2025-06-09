@@ -51,7 +51,6 @@ Node *createDLL(int arr[], int index, int size, Node *Head)
 
 int main()
 {
-    system("clear");
     Node *Head = NULL;
     int arr[] = {10, 20, 30, 40, 50};
 

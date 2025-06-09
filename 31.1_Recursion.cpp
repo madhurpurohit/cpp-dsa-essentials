@@ -17,7 +17,6 @@ void recursion(int n)
 
 int main()
 {
-    system("clear");
     int n;
     cout << "Enter any number: ";
     cin >> n;

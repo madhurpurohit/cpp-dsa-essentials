@@ -20,8 +20,6 @@ using namespace std;
 
 int main()
 {
-    system("clear");
-
     try
     {
         int *p = new int[10000000000000000];

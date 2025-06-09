@@ -43,7 +43,6 @@ void printArray(int arr[], int index)
 
 int main()
 {
-    system("clear");
     int arr[5] = {10, 11, 12, 13, 14};
 
     cout << "Array from index 0 to last index is: \n";

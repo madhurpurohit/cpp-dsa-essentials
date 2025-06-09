@@ -55,7 +55,6 @@ Node *deleteNode(Node *current, int x)
 
 int main()
 {
-    system("clear");
     Node *Head = NULL;
 
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};

@@ -102,7 +102,6 @@ public:
 
 int main()
 {
-    system("clear");
     Customer C1("Madhur", 5000, 7610);
 
     try

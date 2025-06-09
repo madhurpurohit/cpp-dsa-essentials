@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-    system("clear");
     int n;
     cout << "Enter the size: ";
     cin >> n;

@@ -79,7 +79,6 @@ public:
 
 int main()
 {
-    // system("clear");
     // Create Object for default constructor.
     customer user; // Create Object for Class without initialization.
 

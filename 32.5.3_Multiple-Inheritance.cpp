@@ -56,7 +56,6 @@ public:
 
 int main()
 {
-    system("clear");
     CodingTeacher T1("Madhur", "Computer Science", "DevFlux", 8000000, "Full Stack MERN Web Development & React Native App Development");
 
     T1.techDetails();

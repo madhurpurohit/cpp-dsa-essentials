@@ -40,7 +40,6 @@ void printLL(Node *Head)
 
 int main()
 {
-    system("clear");
     Node *Head = NULL;
     int number, value;
     cout << "Enter the number of value that you want to insert:\n";

@@ -72,7 +72,6 @@ void selection_sort_decreasing(int arr[], int n)
 
 int main()
 {
-    system("clear");
     int sort[size];
     int range;
     cout << "Enter size of array: ";

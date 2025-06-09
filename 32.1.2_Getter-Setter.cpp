@@ -68,7 +68,6 @@ public:
 
 int main()
 {
-    system("clear");
     Student s1;
 
     //* Set the value using setter function.

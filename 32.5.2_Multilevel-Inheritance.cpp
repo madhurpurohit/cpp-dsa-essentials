@@ -54,7 +54,6 @@ public:
 
 int main()
 {
-    system("clear");
     Manager M1("Madhur", 27, 450000, "App", 20);
 
     //* Call he function of object.

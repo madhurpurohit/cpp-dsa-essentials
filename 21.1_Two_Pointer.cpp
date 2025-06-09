@@ -13,7 +13,6 @@ void Two_pointer();
 
 int main()
 {
-    system("clear");
     // int arr[] = {1, 0, 1, 0, 1, 0};
     int arr[] = {1, 0, 0, 1, 0, 1, 1};
 

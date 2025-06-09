@@ -105,7 +105,6 @@ void threeDArray()
 
 int main()
 {
-    system("clear");
     twoDArray();
     threeDArray();
 

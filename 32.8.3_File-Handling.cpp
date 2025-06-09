@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-    system("clear");
     ofstream fout;
     fout.open("z.txt");
     fout << "Hello Everyone.\n";

@@ -54,7 +54,6 @@ Node *createLL(int arr[], int index, int size, Node *previous)
 
 int main()
 {
-    system("clear");
     Node *Head = NULL;
 
     int arr[] = {10, 12, 14, 16, 18, 20};

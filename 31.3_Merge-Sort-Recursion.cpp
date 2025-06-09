@@ -66,7 +66,6 @@ void divideArray(int arr[], int start, int end)
 
 int main()
 {
-    system("clear");
     int arr[] = {6, 3, 1, 2, 8, 9, 10, 7, 3, 10};
 
     divideArray(arr, 0, 9);

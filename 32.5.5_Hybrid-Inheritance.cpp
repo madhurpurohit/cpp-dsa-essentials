@@ -76,7 +76,6 @@ public:
 
 int main()
 {
-    system("clear");
     Girl G1;
     Boy B1;
 

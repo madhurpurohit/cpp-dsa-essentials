@@ -79,7 +79,6 @@ Node *createDLL(int arr[], int index, int size, Node *head)
 
 int main()
 {
-    system("clear");
     Node *Head = NULL;
     int arr[] = {11, 12, 13, 14, 15, 16};
     int size = sizeof(arr) / sizeof(arr[0]);

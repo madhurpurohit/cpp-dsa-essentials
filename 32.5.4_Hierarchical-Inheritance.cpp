@@ -80,7 +80,6 @@ public:
 
 int main()
 {
-    system("clear");
     Student S1("Madhur", 23, 7610, 30000);
     Teacher T1("Rohit", 27, "DSA", 3);
     Staff A1("Ravi", 35, "Peon");

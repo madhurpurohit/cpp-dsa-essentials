@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-    // system("clear");
     //* How to open file & than we can write on it.
     ofstream fout;
     fout.open("zoom.txt"); // It will open this zoom.txt file in it's directory, & if this file is not present their than it will automatically create this file & than open it.

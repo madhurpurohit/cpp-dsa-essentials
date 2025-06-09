@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-    system("clear");
     int arr[5] = {1, 2, 3, 4, 5};
     int *ptr = arr;
 

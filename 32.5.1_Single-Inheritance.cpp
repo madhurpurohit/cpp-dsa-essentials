@@ -53,7 +53,6 @@ public:
 
 int main()
 {
-    system("clear");
     Student A1("Madhur", 24, 7610, 3000);
     A1.work();
 

@@ -91,7 +91,6 @@ DCNode *createDCLL(int arr[], int index, int size, DCNode *back)
 
 int main()
 {
-    system("clear");
     Node *SCHead = NULL;
     int arr[] = {10, 20, 30, 40, 50, 60};
     int size = sizeof(arr) / sizeof(arr[0]);

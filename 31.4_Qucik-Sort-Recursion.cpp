@@ -33,7 +33,6 @@ void quickSort(int arr[], int start, int end)
 
 int main()
 {
-    system("clear");
     int arr[] = {10, 3, 4, 1, 5, 6, 3, 2, 11, 9};
 
     cout << "Array before quick sort is:\n";

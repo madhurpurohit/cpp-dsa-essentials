@@ -33,7 +33,6 @@ class d
 
 int main()
 {
-    system("clear");
     empty1 ob;
     a ob1;
     b ob2;

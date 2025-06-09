@@ -14,7 +14,6 @@ public:
 
 int main()
 {
-    system("clear");
     // Initialized or Declare class with object. Object is like variable of data-type.
     Student S1;
 

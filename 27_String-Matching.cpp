@@ -30,7 +30,6 @@ void findLps(vector<int> &lps, string s)
 
 int main()
 {
-    system("clear");
     string hayStack = "mississippi";
     string needle = "issip";
     // string needle = "ip";

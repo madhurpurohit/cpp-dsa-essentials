@@ -53,7 +53,6 @@ int lps1(string s)
 
 int main()
 {
-    system("clear");
     string s1 = "ABCDEABCD";
     string s2 = "ABCDABCD";
     string s3 = "ABCABDABCABCABD";

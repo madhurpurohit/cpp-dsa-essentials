@@ -13,7 +13,6 @@ public:
 
 int main()
 {
-    system("clear");
     //* Dynamically create objects.
     Student *S = new Student;
 

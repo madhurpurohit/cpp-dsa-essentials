@@ -41,7 +41,6 @@ void printLL(Node *Head)
 
 int main()
 {
-    system("clear");
     Node *Head = NULL;
     int arr[] = {10, 11, 12, 13, 14, 15};
     int size = sizeof(arr) / sizeof(arr[0]);

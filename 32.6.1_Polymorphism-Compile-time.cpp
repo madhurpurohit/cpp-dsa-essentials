@@ -50,7 +50,6 @@ public:
 
 int main()
 {
-    // system("clear");
     // todo Function Overloading.
     Area A1, A2;
     cout << "Area of circle: " << A1.calculateArea(4) << endl;

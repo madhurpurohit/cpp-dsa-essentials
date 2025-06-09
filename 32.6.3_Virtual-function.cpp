@@ -44,7 +44,6 @@ public:
 
 int main()
 {
-    system("clear");
     Animal *p;
 
     vector<Animal *> animals;

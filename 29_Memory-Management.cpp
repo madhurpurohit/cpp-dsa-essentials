@@ -3,7 +3,6 @@ using namespace std;
 
 int main()
 {
-    system("clear");
     //* How to store a variable in Heap memory.
     int *ptr = new int;
 

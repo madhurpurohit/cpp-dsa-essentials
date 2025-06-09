@@ -73,7 +73,6 @@ int Customer::totalBalance = 0;
 
 int main()
 {
-    system("clear");
     Customer user1("Madhur", 1234, 10000);
     user1.display();
     Customer user2("John", 7610, 14000);

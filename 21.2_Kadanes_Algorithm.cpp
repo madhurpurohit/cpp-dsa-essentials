@@ -26,7 +26,6 @@ int Maximum(vector<int> arr)
 
 int main()
 {
-    system("clear");
     int n;
     cout << "Enter the size of array: ";
     cin >> n;

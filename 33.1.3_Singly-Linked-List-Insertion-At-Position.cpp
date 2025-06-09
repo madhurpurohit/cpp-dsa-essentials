@@ -40,7 +40,6 @@ void printLL(Node *Head)
 
 int main()
 {
-    system("clear");
     Node *Head = NULL;
     int arr[] = {1, 3, 5, 7, 9, 11};
 

@@ -31,7 +31,6 @@ void printLL(Node *Head)
 
 int main()
 {
-    system("clear");
     //* Static way.
     // Node A1(4);
 

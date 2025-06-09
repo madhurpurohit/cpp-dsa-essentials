@@ -39,7 +39,6 @@ public:
 
 int main()
 {
-    system("clear");
     Student S1("Madhur", 23, 68, 30000, 850211067);
     S1.display();
     cout << endl;

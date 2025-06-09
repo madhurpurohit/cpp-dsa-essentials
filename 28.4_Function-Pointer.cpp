@@ -40,8 +40,6 @@ void checkPointer(int *num1, int *num2)
 
 int main()
 {
-    system("clear");
-
     //* Function call for variable
     int num = 5;
     cout << "num before function call: " << num << endl;

@@ -72,7 +72,6 @@ void deleteLastNode(Node *Head)
 
 int main()
 {
-    system("clear");
     Node *Head = NULL;
     int arr[] = {10, 20, 30, 40, 50, 60, 70};
     // int arr[] = {10};

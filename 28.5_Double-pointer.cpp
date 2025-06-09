@@ -9,7 +9,6 @@ void refVariable(int *&ref)
 }
 int main()
 {
-    system("clear");
     int n = 10;
     int *ptr1 = &n;
     int **ptr2 = &ptr1;

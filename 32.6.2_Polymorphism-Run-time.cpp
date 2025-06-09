@@ -28,7 +28,6 @@ public:
 
 int main()
 {
-    system("clear");
     // We create a pointer that points animal class.
     Animal *p;
 

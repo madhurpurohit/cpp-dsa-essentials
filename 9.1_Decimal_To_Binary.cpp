@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-    system("clear");
     int number, reminder, ans = 0, multiply = 1;
     cout << "Enter any number: ";
     cin >> number;
